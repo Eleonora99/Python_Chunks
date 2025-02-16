@@ -5,7 +5,7 @@ def dialog():
     mbox = QMessageBox()
 
     mbox.setText("questo testa è l'area del testo")
-    mbox.setDetailedText("invece queste è l'area del testo dettagliato")
+    mbox.setDetailedText("invece queste è l'area del testo dettagliato !")
     mbox.setStandardButtons (QMessageBox.StandardButton.Ok|QMessageBox.StandardButton.Cancel) 
             
     mbox.exec()
